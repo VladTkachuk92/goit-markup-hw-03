@@ -10,34 +10,43 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700;900&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <!-- normalize -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
     <!-- css -->
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
+
+  <!-- body -->
   <body>
     <header class="header">
-      <a class="logo" href="./index.html"
-        ><span class="logo-web">Web</span>Studio
-      </a>
+      <!-- logo -->
+        <a class="logo" href="./index.html"
+          ><span class="logo-web">Web</span>Studio
+        </a>
+        <!-- navigation -->
+        <nav>
+          <ul class="site-nav">
+            <li><a class="link active" href="">Студія</a></li>
+            <li><a class="link" href="./portfolio.html">Портфоліо</a></li>
+            <li><a class="link" href="">Контакти</a></li>
+          </ul>
+        </nav>
 
-      <!-- navigation -->
-      <nav>
-        <ul class="site-nav">
-          <li><a class="link active" href="">Студія</a></li>
-          <li><a class="link" href="./portfolio.html">Портфоліо</a></li>
-          <li><a class="link" href="">Контакти</a></li>
+        <ul class="header-list">
+          <li>
+            <a class="header-item" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="header-item" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
+          </li>
         </ul>
-      </nav>
-
-      <ul class="header-list">
-        <li>
-          <a class="header-item" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a class="header-item" href="tel:+380961111111">+38 096 111 11 11</a>
-        </li>
-      </ul>
     </header>
 
     <main>
@@ -47,7 +56,7 @@
         <button class="hero-button" type="button">Замовити послугу</button>
       </section>
       <!-- about -->
-      <section class="about">
+      <section class="about-section">
         <!-- <h2 hidden>Особливості</h2> -->
         <ul class="about-list">
           <li class="about-item">

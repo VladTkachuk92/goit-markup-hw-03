@@ -19,11 +19,26 @@ body {
   font-size: 14px;
   letter-spacing: 0.03em;
 }
+/* reset */
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
 
 ul {
   list-style: none;
+  margin: 0;
+}
+img {
+  display: block;
 }
 /* header */
+.header {
+  
+}
+
 .logo {
   color: #000000;
   font-family: 'Raleway';
@@ -35,6 +50,10 @@ ul {
 
 .logo-web {
   color: var(--accent-color);
+}
+
+.site-nav {
+  margin: 0 auto;
 }
 
 .link {
@@ -53,7 +72,6 @@ ul {
 .link.active {
   color: var(--accent-color);
 }
-
 .header-item {
   color: var(--text-color);
   font-weight: 500;
@@ -70,31 +88,45 @@ ul {
 .hero {
   background-color: var(--background-main);
   color: var(--main-white);
+  width: 100%;
+  height: 600px;
+  padding: 200px;
+  margin: auto;
+  margin-bottom: 94px;
+  text-align: center;
 }
 
 .hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  width: 696px;
+  height: 120px;
 }
 
 .hero-button {
   background-color: var(--accent-color);
   color: var(--main-white);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   cursor: pointer;
+  padding: 10px 32px;
+  border-radius: 4px;
+  border: none;
 }
 /* about */
+.about-list{
+  display: flex;
+}
 .about-title {
+  margin-bottom: 10px;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
@@ -185,4 +217,3 @@ ul {
   font-size: 16px;
   line-height: 1.88;
 }
-
