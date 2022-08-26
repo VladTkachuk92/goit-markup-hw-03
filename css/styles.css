@@ -80,7 +80,7 @@ img {
   text-decoration: none;
 }
 
-.header-item:hover,
+.header-item:hover,z
 .header-item:focus {
   color: var(--accent-color);
 }
@@ -92,7 +92,7 @@ img {
   height: 600px;
   padding: 200px;
   margin: auto;
-  margin-bottom: 94px;
+  /* margin-bottom: 94px; */
   text-align: center;
 }
 
@@ -124,6 +124,8 @@ img {
 /* about */
 .about-list{
   display: flex;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .about-title {
   margin-bottom: 10px;
@@ -142,7 +144,8 @@ img {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-}
+  padding-bottom: 50px;
+  }
 /* team */
 .group-title {
   font-weight: 500;
