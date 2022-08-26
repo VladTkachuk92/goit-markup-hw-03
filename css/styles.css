@@ -80,7 +80,7 @@ img {
   text-decoration: none;
 }
 
-.header-item:hover,z
+.header-item:hover,
 .header-item:focus {
   color: var(--accent-color);
 }
