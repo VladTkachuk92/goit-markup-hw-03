@@ -81,6 +81,12 @@ img {
   color: var(--accent-color);
 }
 
+.header-nav {
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+}
+
 .site-nav {
   display: flex;
   align-items: center;
@@ -136,6 +142,7 @@ img {
 }
 
 .hero-title {
+  font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
@@ -299,6 +306,11 @@ img {
   text-align: center;
   cursor: pointer;
   border-radius: 4px;
+}
+
+.filter-btn.active {
+  background-color: var(--accent-color);
+  color: var(--main-white);
 }
 
 .filter-btn:hover,
